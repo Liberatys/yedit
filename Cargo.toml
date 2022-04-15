@@ -7,6 +7,9 @@ edition = "2018"
 repository = "https://github.com/liberatys/yedit/"
 homepage = "https://github.com/liberatys/yedit/"
 license = "MPL-2.0"
-keywords = []
+keywords = ["editor", "yaml", "tui"]
 
 [dependencies]
+tuirealm = { version = "^1.5.0", default-features = false, features = [ "derive", "serialize", "with-crossterm" ] }
+tui-realm-stdlib = { version = "^1.1.0", default-features = false, features = [ "with-crossterm" ] }
+crossterm = "0.23"
