@@ -1,0 +1,12 @@
+[package]
+name = "yedit"
+version = "0.1.0"
+description = "A local yaml editor for both local and remote sources"
+authors = ["Nick <Anthony> Flueckiger <nick.anthony.flueckiger@hey.com>"]
+edition = "2018"
+repository = "https://github.com/liberatys/yedit/"
+homepage = "https://github.com/liberatys/yedit/"
+license = "MPL-2.0"
+keywords = []
+
+[dependencies]
